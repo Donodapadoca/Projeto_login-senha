@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html lang="ptbr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Controle de Acesso</title>
-
-    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="css/cad.css">
 </head>
 <body>
-
+    
+    
     <form class="form" action="">
         <div class="card">
 
             <div class="cardtop">
                 <img class="imglog" src="img/login.png" alt="">
-                <h2 class="titulo">Acesse seu Login</h2>
-                <p> </p>
+                <h2 class="titulo">Cadastre-se</h2>
+                <p> Faça seu Cadastro </p>
                 
 
             </div> 
+            <div class="cardgrupo">
+                <label for=""> Nome</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="cardgrupo">
+                <label for=""> Telefone celular</label>
+                <input type="number" name="number" placeholder="Digite seu celular" required>
+            </div>
             <div class="cardgrupo">
                 <label for=""> Email</label>
                 <input type="email" name="e-mail" placeholder="Digite o e-mail" required>
@@ -28,21 +36,12 @@
                 <label for="">Senha</label>
                 <input type="password" name="senha" placeholder="Digite sua senha" required>
             </div>  
-            <div class="cardgrupo">
-                <label for=""><input type="checkbox"> Lembre-me</label>
                 
-            </div>
+            
             <div class="cardgrupo btn">
                 
-                <button type="submit"> Acessar</button>
+                <button type="submit"> Cadastrar</button>
                 
-            </div>
-            <div class="cad1">
-            <p>Caso não tenha conta</p>
-            </div>
-            <div class="cad1">
-                <a href="Cadastro.html">Cadastre-se</a>
-            </div>
             </div>
                      
         </div>

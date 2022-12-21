@@ -13,6 +13,7 @@ body{
     font-family: sans-serif;
 }
 
+
 .form{
 
     width: 400px;
@@ -84,20 +85,3 @@ background-color: #273b7a;
 
 
 }
-
-.cad1{
-    text-align: center;
-    color: white;
-}
-.cad1 > a{
-    color: white;
-    text-decoration: none;
-}
-
-.cad1 a:hover{
-    outline: 0;
-    color: #273b7a;
-}
-
-
-/* pagina 2 */

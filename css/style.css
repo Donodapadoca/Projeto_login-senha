@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #273b7a, #ff7f4f);
+    width: 100vw;
+    height: 100vh;
+
+    /* background-color: white; */
+    font-family: sans-serif;
+}
+
+.form{
+
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+
+
+}
+
+.cardtop{
+    text-align: center;
+
+
+}
+
+.card{
+    box-shadow: 1px 1px 5px ;
+    background-image: linear-gradient(to top left,#273b7a, #ff7f4f);
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+.imglog{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 5px 2px 2px gray;
+   
+}
+
+
+.titulo{
+    color: black;
+
+}
+
+.cardgrupo{
+    margin-bottom: 10px;
+}
+
+
+.cardgrupo > label{
+    width: 100%;
+    color: black;
+    display: block;
+    }
+
+.cardgrupo > input{
+
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+
+
+.cardgrupo > button{
+background-color: #273b7a;
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    border: 0px;
+}
+
+.btn button:hover{
+    background-image: linear-gradient(to right, #273b7a, #5265a3 );
+
+
+}
